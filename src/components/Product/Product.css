@@ -55,3 +55,9 @@
     color: white;
     cursor: pointer;
 }
+
+.cart-icon{
+    color: white;
+    margin-left: 5px;
+    font-size: 1.1rem;
+}

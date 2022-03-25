@@ -1,0 +1,23 @@
+.cart-container{
+    position: sticky;
+    top: 10px;
+}
+
+.cart-container h2{
+    color: white;
+}
+
+.cart-product{
+    color: white;
+}
+
+.cart-btn{
+    background-color: #109105;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Product.css'
+import {BsCartPlus} from 'react-icons/bs'
 
 const Product = (props) => {
 
@@ -12,7 +13,7 @@ const Product = (props) => {
                 <p className='product-name'>{name}</p>
                 <p className='product-price'>Price: ${price}</p>
             </div>
-            <button className='btn-cart'><p>Add to Cart</p></button>
+            <button className='btn-cart'><p>Add to Cart</p><BsCartPlus className='cart-icon'></BsCartPlus></button>
         </div>
     );
 };
