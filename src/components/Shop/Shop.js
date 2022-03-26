@@ -30,8 +30,13 @@ const Shop = () => {
     // Select random one 
 
     const chooseOne = () => {
+
+        if(carts.length>0){
         const random = carts[Math.floor(Math.random()*carts.length)];
         setCarts([random]);
+        }else{
+            alert('No product in cart')
+        }
     }
 
     return (
